@@ -14,6 +14,4 @@ import { RouterModule } from '@angular/router';
     declarations: [StoreComponent,CounterDirective,CartSummaryComponent,CartDetailComponent,CheckoutComponent],
     exports: [StoreComponent,CartDetailComponent,CheckoutComponent]
 })
-export class StoreModule {
-
-}
+export class StoreModule { }
